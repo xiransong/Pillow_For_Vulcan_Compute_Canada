@@ -1,0 +1,16 @@
+{
+  "name": "manylinux-wheel-builder",
+  "dockerFile": "Dockerfile",
+  "runArgs": [
+    "--privileged"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "postCreateCommand": "bash -lc 'echo Codespace ready!'"
+}

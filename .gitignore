@@ -1,0 +1,4 @@
+dist/
+Pillow-*
+wheels/
+pillow.tar.gz
